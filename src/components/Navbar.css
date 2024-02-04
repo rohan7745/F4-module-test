@@ -1,0 +1,35 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ff6600; /* Orange color */
+    color: #fff;
+    width: 100%; /* Make the navbar full-width */
+    box-sizing: border-box; /* Include padding and border in the total width */
+  }
+  
+  .left-section h2 {
+    margin: 0;
+  }
+  
+  .central-section {
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+    align-items: center; /* Center vertically */
+    background-color: #fff; /* White background */
+    padding: 10px; /* Add padding to the central section */
+    border-radius: 8px; /* Add border-radius for a rounded appearance */
+  }
+  
+  .central-section a {
+    color: #333; /* Text color for links in the central section */
+    text-decoration: none;
+    margin: 0 15px; /* Add some spacing between links */
+  }
+  
+  .central-section a:hover {
+    text-decoration: underline;
+  }
+  

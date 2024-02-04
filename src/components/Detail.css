@@ -1,0 +1,69 @@
+/* Detail.css */
+.detail-container {
+    padding: 10px; /* Adjust the padding */
+  }
+  
+  .detail-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px; /* Adjust the margin */
+  
+    img {
+      width: 30%; /* Adjust the width */
+      object-fit: cover;
+    }
+  
+    .detail-content {
+      padding: 10px; /* Adjust the padding */
+  
+      h2 {
+        margin-top: 0;
+        font-size: 20px; /* Adjust the font size */
+      }
+  
+      p {
+        color: #555;
+        font-size: 16px; /* Adjust the font size */
+      }
+    }
+  }
+  .suggestion-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .suggestion-card {
+    flex: 1 1 calc(33.33% - 10px); /* Adjust the width to fit 3 cards in a row */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    img {
+      width: 100%;
+      height: 100px; /* Adjust the height */
+      object-fit: cover;
+    }
+  
+    .suggestion-content {
+      padding: 10px;
+  
+      h3 {
+        margin-top: 0;
+        font-size: 14px; /* Adjust the font size */
+      }
+  
+      a {
+        color: #007bff;
+        text-decoration: none;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }  
